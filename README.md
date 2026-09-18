@@ -1,5 +1,6 @@
 # Traffic Vision Analysis CLI
-
+**Name**: Chhavi Dubey  
+**Registration Number**: 24BAI10977
 ## Overview of the project
 Traffic Vision Analysis is a fully automated, command-line executable Computer Vision pipeline. It processes traffic surveillance videos or images to perform real-time lane detection and vehicle counting. Built with Python and OpenCV, it leverages foundational image processing techniques like Background Subtraction, Edge Detection, and Hough Transforms to achieve high performance without needing specialized AI hardware.
 
