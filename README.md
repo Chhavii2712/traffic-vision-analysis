@@ -73,7 +73,7 @@ Traffic Vision Analysis CLI
 Starting processing... (Input: assets/original.jpg)
 Tasks: ['lane', 'vehicle']
 Processing complete!
-Final Vehicle Count: 0
+Final Vehicle Count: 14
 ```
 
 ### 2. Output Images
