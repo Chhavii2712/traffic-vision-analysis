@@ -54,8 +54,31 @@ python main.py --help
 The project includes unit tests for the core modules.
 To run the tests, execute `pytest` in the root directory:
 ```bash
-pytest tests/
+python -m pytest tests/
+```
+
+To test the command line execution manually, you can run the pipeline on the sample image located in `assets/`:
+```bash
+python main.py --input assets/original.jpg --output assets/processed.jpg --tasks lane vehicle
 ```
 
 ## Screenshots
-*(Add screenshots of the tool running in the terminal and a sample output frame here)*
+
+### 1. Terminal Execution
+```text
+C:\TrafficAnalysis> python main.py --input assets/original.jpg --tasks lane vehicle
+==================================================
+Traffic Vision Analysis CLI
+==================================================
+Starting processing... (Input: assets/original.jpg)
+Tasks: ['lane', 'vehicle']
+Processing complete!
+Final Vehicle Count: 0
+```
+
+### 2. Output Images
+**Original Input:**
+![Original Highway](assets/original.jpg)
+
+**Processed Output (Lane Detection):**
+![Processed Output](assets/processed.jpg)
